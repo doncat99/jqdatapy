@@ -37,8 +37,8 @@ def init_env(username: str = None, password: str = None, jqdata_home: str = JQDA
         with open(config_path, 'w+') as outfile:
             json.dump(jqdata_env, outfile)
 
-    import pprint
-    pprint.pprint(jqdata_env)
+    # import pprint
+    # pprint.pprint(jqdata_env)
 
     return config_path
 
